@@ -9,7 +9,7 @@ accountEmail="aydhir@gmail.com"
 accountPassword="212121"
 accountCity="Jalandhar"
 console.log(accountId);
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState,accountId+accountPassword,accountEmail+accountCity])
 
 /*
 prefer not to use var because of issue in block scope and functional scope
